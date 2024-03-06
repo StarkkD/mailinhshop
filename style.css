@@ -1,0 +1,61 @@
+
+
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu_a{
+    text-decoration: none;
+    color: rgb(134, 129, 129);
+    margin-right: 30px;
+    font-family: Arial, sans-serif;
+    transition: transform 0.5s ease;
+}
+.menu_a:hover{
+    color: black;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+#banner{
+    height: 400px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: flex-start;
+    transition: transform 0.5s ease;
+    cursor: default;
+}
+
+#banner:hover{
+    transform: scale(1.05);
+}
+
+#slogan{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+#buynow{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(65, 62, 62);
+    border-radius: 4%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#buynow:hover{
+    transform: scale(1.1);
+}
